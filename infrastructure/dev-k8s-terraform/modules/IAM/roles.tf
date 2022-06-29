@@ -68,12 +68,12 @@ resource "aws_iam_policy_attachment" "attach_for_worker" {
   policy_arn = aws_iam_policy.policy_for_worker_role.arn
 }
 
-resource "aws_iam_instance_profile" "profile_for_master" {
+resource "aws_iam_instance_profile" "profile_for_master-aa" {
   name  = "profile_for_master"
   role = aws_iam_role.role_for_master.name
 }
 
-resource "aws_iam_instance_profile" "profile_for_worker" {
+resource "aws_iam_instance_profile" "profile_for_worker-aa" {
   name  = "profile_for_worker"
   role = aws_iam_role.role_for_worker.name
 }
