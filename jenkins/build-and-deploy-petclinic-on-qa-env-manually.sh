@@ -1,4 +1,4 @@
-PATH="$PATH:/usr/local/bin" --- AWS CLI
+PATH="$PATH:/usr/local/bin"
 APP_NAME="petclinic"
 APP_REPO_NAME="clarusway-repo-aa/petclinic-app-qa"
 ANS_KEYPAIR="matt-${APP_NAME}-qa.key"
