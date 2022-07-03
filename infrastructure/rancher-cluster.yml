@@ -1,6 +1,6 @@
 nodes:
-  - address: 172.31.86.138
-    internal_address: 172.31.86.138
+  - address: 172.31.95.80
+    internal_address: 172.31.95.80
     user: ubuntu
     role:
       - controlplane
@@ -23,3 +23,4 @@ ingress:
   provider: nginx
   options:
     use-forwarded-headers: "true"
+    
